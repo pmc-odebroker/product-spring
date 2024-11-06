@@ -1,10 +1,10 @@
-package com.web.product;
+package com.web.product.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
+public class LoginController {
     @RequestMapping("/")
     public String greet(){
         return "Welcome To Spring Boot Framework";
